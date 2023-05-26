@@ -57,45 +57,6 @@
     line-height: 42px;
     color: #262626;
 }
-@media (max-width: 900px) {
-    .cover {
-        min-height: 506px;
-    }
-
-    .cover__img {
-        background-image: url(../extends/jpg/fonforcover768.jpg);
-    }
-
-    .cover__title {
-        @include font (700, 49px, 59px);
-        margin: 28px 0 0 26px;
-    }
-
-    .cover__subtitle {
-        margin: 27px 0 0 16px;
-        @include font (600, 24px, 29px);
-    }
-}
-@media (max-width: 520px) {
-    .cover {
-        min-height: 213px;
-    }
-
-    .cover__img {
-        background-image: url(../extends/svg/opa.svg);
-    }
-
-    .cover__title {
-        @include font (700, 27px, 33px);
-        margin: 28px 0 0 26px;
-    }
-
-    .cover__subtitle {
-        margin: 8px 0 0 11px;
-        @include font (600, 14px, 17px);
-        max-width: 145px;
-    }
-}
 
 .cars {
 
