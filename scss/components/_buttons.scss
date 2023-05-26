@@ -1,0 +1,67 @@
+.portfolio__buttons {
+    margin: 24px auto 0 auto;
+    max-width: 958px;
+    @include flex (center, baseline, wrap);
+    gap: 22px 26px;
+}
+
+.portfolio__button {
+    @include font (400, 18px, 22px);
+    width: 220px;
+    height: 50px;
+    padding: 14px 0 18px 0;
+    text-align: center;
+    background-color: #E1E1E1;
+    border-radius: 6px;
+    color: #000;
+}
+
+.portfolio__button_active {
+    background-color: #CA0100;
+    color: #FFF;
+}
+
+.page__button {
+    @include font (400, 18px, 22px);
+    display: block;
+    box-sizing: border-box;
+    background-color: #CA0100;
+    width: 256px;
+    height: 52px;
+    padding: 10px 0;
+    border-radius: 20px;
+    transition: 1s all ease-in-out;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.page__button {
+    margin: 17px auto 0 auto;
+    color: $text-color;
+    transition: 1s all;
+    &:hover {
+        background-color: #ffd3a0;
+        color: #ffffff;
+    }
+}
+
+@media (max-width: 900px) {
+    .portfolio__buttons {
+        margin: 26px auto 0 auto;
+        max-width: 466px;
+        gap: 22px 26px;
+        flex-wrap: wrap;
+        @include flex (center, baseline, wrap);
+    }
+}
+@media (max-width: 500px) {
+    .portfolio__buttons {
+        margin: 20px auto 0 auto;
+        gap: 21px 0;
+    }
+}

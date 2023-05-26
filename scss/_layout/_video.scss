@@ -1,0 +1,61 @@
+
+.video__title {
+    padding: 44px 0 0 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #262626;
+}
+.video__text {
+    padding: 20px 0 0 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #737373;
+}
+.video__iframe {
+    max-width: 824px;
+    height: 400px;
+    margin: 59px 100px 0 100px;
+}
+.video__video{
+    width: 70%;
+    height: 425px;
+    margin: 70px 153px;
+}
+.eef {
+    display: block;
+    max-width: 824px;
+    max-height: 400;
+    margin: 23px auto 0 auto;
+}
+@media (max-width: 900px) {
+    .video__title {
+        padding: 27px 0 23px 0;
+    }
+
+    .eef {
+        display: block;
+        max-width: 638px;
+        height: 310px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 520px) {
+    .video__title {
+        padding: 17px 0 16px 0;
+    }
+
+    .eef {
+        display: block;
+        max-width: 320px;
+        max-height: 148px;
+        margin: 0 auto;
+        padding: 0;
+    }
+}

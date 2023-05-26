@@ -1,0 +1,118 @@
+
+.advantages__title {
+    margin: 55px 0 25px 35px;
+}
+
+.advantages__cards {
+    @include flex (center, baseline, wrap);
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0 17px;
+    gap: 13px 13px;
+}
+
+.advantages__card {
+    width: 320px;
+    height: 130px;
+    color: #140b0b;
+    border-radius: 30px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    border: none;
+}
+.advantages__card-title__1{
+    background-image: url(../../img/blond.png);
+}
+.advantages__card-title__3{
+    background-image: url(../../img/blond.png);
+}
+.advantages__card-title__2{
+    background-image: url(../../img/car.png);
+}
+.advantages__img {
+    display: block;
+    width: 94px;
+    height: 82px;
+    object-fit: cover;
+    margin: 44px auto 20px auto;
+}
+
+.advantages__card-title {
+    @include font (600, 25px, 30px);
+    color: #140b0b;
+    margin: 0;  
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+    /* black */
+    padding: 20px 0 0 18px;
+
+    color: #262626;  
+}
+
+.advantages__cardsubtitle {
+    text-align: center;
+    @include font (400, 17px, 21px);
+    color: #140b0b;
+    margin: 10px 12px 0 12px;
+    max-width: 276px;
+}
+
+.advantages__button{
+    width: 92px;
+    height: 30px;
+    margin: 37px 0 0 18px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    background: #C2C2C4;
+    text-align: center;
+    opacity: 0.9;
+    border-radius: 6px;
+    color: #262626;
+    transition: 1s all ease-out;
+    &:hover {
+        background-color: #b20707;
+        color: $title-color;
+    }
+}
+@media (max-width: 900px) {
+    .advantages__title {
+        margin: 0 auto 0 auto;
+        padding: 31px 0 0 0;
+    }
+
+    .advantages__subtitle {
+        margin: 13px auto 0 auto;
+    }
+    .advantages__cards {
+        @include flex (center, center, wrap);
+        flex-direction: column;
+        margin: 31px auto 0 auto;
+        gap: 35px;
+        padding: 0;
+    }
+}
+@media (max-width: 520px) {
+    .advantages__title {
+        padding: 21px 0 0 0;
+    }
+
+    .advantages__subtitle {
+        margin: 10px auto 0 auto;
+    }
+
+    .advantages__cards {
+        margin: 17px auto 0 auto;
+        padding: 0 5px;
+        gap: 15px 0;
+    }
+}
