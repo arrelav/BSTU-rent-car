@@ -1,0 +1,41 @@
+.footer {
+    width: 1024px;
+    background-color: #fff;
+    opacity: 0.8;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 17px 0 22px;
+}
+.footer__container-first {
+    padding: 9px 17px 0 22px;
+}
+.footer__text {
+    font-family: 'Italiana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 46px; 
+    color: #000000;
+}
+.footer__info {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+.footer__img {
+    width: 25px;
+    height: 25px;
+}
+.footer__container-second {
+    padding-bottom: 10px;
+}
+.name{
+    padding-left: 100px;
+}

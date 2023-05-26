@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Treplast">
+    <meta name="description" content="Treplast">
+    <link rel="stylesheet" href="./scss/style.css">
+    <script src="./js/burger.js" defer></script>
+    <script src="./js/calc.js" defer></script>
+    <title>Treplast</title>
+</head>
+
+<body class="page">
+    <header class="header">
+        <div class="header__width page__container">
+            <img class="header__logo" src="./img/Union.png" alt="Логотип">
+            <nav class="nav active__nav">
+                <ul class="header__links">
+                    <li class="header__link"><a href="./index.html" class="header__link-item">Подбор авто</a></li>
+                    <li class="header__link"><a href="./calc.html" class="header__link-item">О компании</a></li>
+                    <li class="header__link"><a href="#" class="header__link-item">Договор</a></li>
+                    <li class="header__link"><a href="#" class="header__link-item">Отзывы</a></li>
+                </ul>
+            </nav>
+            <div class="burger">
+                <span></span>
+            </div>
+        </div>
+    </header>
+    <section class="calc page__container">
+        <div class="calc__container" id="calcul">
+            <div class="calc__menu">
+                <h4 class="calc__title calc__title-1">Название</h4>
+                <h4 class="calc__title calc__title-2">Цена</h4>
+                <h4 class="calc__title calc__title-3">Количество дней</h4>
+                <h4 class="calc__title calc__title-4">Стоимость</h4>
+            </div>
+
+            <div class="container">
+                <p class="container__title style">Skoda Octavia</p>
+                <p class="container__price style">65р/сутки</p>
+                <div class="container__inputs">
+                    <button type="button" class="container__button container__button-minuse style">-</button>
+                    <input type="number" value="1" data-price="65" class="container__input style" disabled>
+                    <button type="button" class="container__button container__button-plus style">+</button>
+                </div>
+                <p class="container__total-price style">65р</p>
+            </div>
+            <div class="container">
+                <p class="container__title style">Kia Rio</p>
+                <p class="container__price style">70р/сутки</p>
+                <div class="container__inputs">
+                    <button type="button" class="container__button container__button-minuse style">-</button>
+                    <input type="number" value="1" data-price="70" class="container__input style" disabled>
+                    <button type="button" class="container__button container__button-plus style">+</button>
+                </div>
+                <p class="container__total-price style">70р</p>
+            </div>
+            <div class="container">
+                <p class="container__title style">Toyota Camry</p>
+                <p class="container__price style">90р/сутки</p>
+                <div class="container__inputs">
+                    <button type="button" class="container__button container__button-minuse style">-</button>
+                    <input type="number" value="1" data-price="90" class="container__input style" disabled>
+                    <button type="button" class="container__button container__button-plus style">+</button>
+                </div>
+                <p class="container__total-price style">90р</p>
+            </div>
+            <div class="container">
+                <p class="container__title style">Hyundai Creta</p>
+                <p class="container__price style">80р/сутки</p>
+                <div class="container__inputs">
+                    <button type="button" class="container__button container__button-minuse style">-</button>
+                    <input type="number" value="0" data-price="80" class="container__input style" disabled>
+                    <button type="button" class="container__button container__button-plus style">+</button>
+                </div>
+                <p class="container__total-price style">80р</p>
+            </div>
+            <div class="container">
+                <p class="container__title style">Toyota RAV4</p>
+                <p class="container__price style">110р/сутки</p>
+                <div class="container__inputs">
+                    <button type="button" class="container__button container__button-minuse style">-</button>
+                    <input type="number" value="1" data-price="110" class="container__input style" disabled>
+                    <button type="button" class="container__button container__button-plus style">+</button>
+                </div>
+                <p class="container__total-price style">110р</p>
+            </div>
+            <div class="container">
+                <p class="container__title style">Skoda Kodiaq</p>
+                <p class="container__price style">120р/сутки</p>
+                <div class="container__inputs">
+                    <button type="button" class="container__button container__button-minuse style">-</button>
+                    <input type="number" value="1" data-price="120" class="container__input style" disabled>
+                    <button type="button" class="container__button container__button-plus style">+</button>
+                </div>
+                <p class="container__total-price style">120р</p>
+            </div>
+            <p class="cost">Итого:<span class="total-cost">1300$</span></p>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__container footer__container-first">
+            <p class="footer__text">Brest</p>
+            <h4 class="footer__text name">figma</h4>
+            <div class="footer__info">
+                <p class="footer__text">+375(29)254-14-25</p>
+                <img class="footer__img" src="./img/telega.png" alt="">
+                <img class="footer__img" src="./img/ins.png" alt="">
+                <img class="footer__img" src="./img/what.png" alt="">
+            </div>
+        </div>
+        <div class="footer__container footer__container-second">
+            <p class="footer__text">@2023github</p>
+            <h4 class="footer__text">Ануфриенко Валерий, ЭM-3</h4>
+            <p class="footer__text">em000301@gmail.com</p>
+        </div>
+    </footer>
+</body>
+
+</html>
